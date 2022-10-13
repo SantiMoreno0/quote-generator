@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url("background.webp")no-repeat;
+}
+
+.container{
+    height: 650px;
+    width: 550px;
+}
+
+.header{
+    font-size: 1.4rem;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 20px auto;
+}
+
+.main-content{
+    width: 100%;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    padding: 50px 40px;
+}
+
+.text-area{
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+
+}
+
+.person{
+    font-size: 1.8rem;
+    font-weight: bolder;    
+    margin: 20px;
+    color: #123d8b;
+}
+
+.new-quote{
+    font-size: 1.3rem;
+    background: black;
+    color: white;
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
